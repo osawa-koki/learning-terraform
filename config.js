@@ -1,5 +1,6 @@
 
 const projectName = 'learning-terraform';
+const basePath = `/${projectName}`;
 
 const siteUrl = `https://osawa-koki.github.io/${projectName}`;
 const githubUrl = `https://github.com/osawa-koki/${projectName}`
@@ -12,9 +13,9 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'Logo.svg',
+    logo: `${basePath}/Logo.svg`,
     logoLink: siteUrl,
-    title: `<a href='${siteUrl}'><img class='img-responsive' src='/Logo.svg' alt='Learn logo' /></a>`,
+    title: `<a href='${siteUrl}'><img class='img-responsive' src='${basePath}/Logo.svg' alt='Learn logo' /></a>`,
     githubUrl,
     helpUrl: '',
     tweetText: '',
@@ -47,13 +48,13 @@ const config = {
     description: "🐙 Let's learn Terraform!",
     ogImage: null,
     docsLocation: `${githubUrl}`,
-    favicon: '/Logo.svg',
+    favicon: `${basePath}/Logo.svg`,
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
     manifest: {
-      name: 'Gatsby Gitbook Starter',
-      short_name: 'GitbookStarter',
+      name: projectName,
+      short_name: projectName,
       start_url: '/',
       background_color: '#6b37bf',
       theme_color: '#6b37bf',
