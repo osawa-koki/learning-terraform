@@ -15,7 +15,7 @@ const config = {
   header: {
     logo: `${basePath}/Logo.svg`,
     logoLink: siteUrl,
-    title: `<a href='${siteUrl}'><img class='img-responsive' src='${basePath}/Logo.svg' alt='Learn logo' /></a>`,
+    title: `<a href='${siteUrl}'>🐙🐙🐙</a>`,
     githubUrl,
     helpUrl: '',
     tweetText: '',
