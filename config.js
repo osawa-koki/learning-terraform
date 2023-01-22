@@ -52,8 +52,8 @@ const config = {
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
     manifest: {
-      name: 'Gatsby Gitbook Starter',
-      short_name: 'GitbookStarter',
+      name: projectName,
+      short_name: projectName,
       start_url: '/',
       background_color: '#6b37bf',
       theme_color: '#6b37bf',
