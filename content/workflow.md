@@ -73,3 +73,15 @@ terraform apply
 CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS                    NAMES
 f3b0b0b5b0b0   nginx     "/docker-entrypoint.…"   20 seconds ago   Up 19 seconds
 ```
+
+動作が確認できたら、Terraformを破棄します。  
+
+```shell
+terraform destroy
+```
+
+破棄が完了したら、`docker ps`でコンテナが停止していることを確認します。  
+
+```shell
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+```
