@@ -1,7 +1,7 @@
 ---
 title: "🤖 Terraform 🤖"
-metaTitle: "🤖🤖🤖 Learning Tetaform 🤖🤖🤖"
-metaDescription: "🤖🤖🤖 Learning Tetaform 🤖🤖🤖"
+metaTitle: "🤖🤖🤖 Learning Terraform 🤖🤖🤖"
+metaDescription: "🤖🤖🤖 Learning Terraform 🤖🤖🤖"
 ---
 
 ## Terraform

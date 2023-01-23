@@ -6,7 +6,7 @@ metaDescription: "🤖 Terraform 基本コマンド 🤖"
 
 ## 基本コマンド
 
-Terraform には、以下のようなコマンドがあります。  
+Terraformには、以下のようなコマンドがあります。  
 
 | コマンド | 概要 |
 | --- | --- |
@@ -25,7 +25,7 @@ Terraform には、以下のようなコマンドがあります。
 
 ## コマンドの実行
 
-Terraform コマンドは、以下のように実行します。  
+Terraformコマンドは、以下のように実行します。  
 
 ```shell
 terraform <command> [options]
@@ -33,7 +33,7 @@ terraform <command> [options]
 
 ## コマンドのオプション
 
-Terraform コマンドは、以下のようなオプションがあります。  
+Terraformコマンドは、以下のようなオプションがあります。  
 
 | オプション | 概要 |
 | --- | --- |
@@ -67,7 +67,7 @@ Terraform コマンドは、以下のようなオプションがあります。
 
 ## terraform init
 
-`init` コマンドは、Terraform の初期化を行います。  
+`init` コマンドは、Terraformの初期化を行います。  
 
 ```shell
 terraform init [options]
@@ -123,7 +123,7 @@ terraform init -verify-plugins=true
 
 ## terraform plan
 
-`plan` コマンドは、Terraform の実行計画を表示します。  
+`plan` コマンドは、Terraformの実行計画を表示します。  
 
 ```shell
 terraform plan
@@ -131,7 +131,7 @@ terraform plan
 
 ## terraform apply
 
-`apply` コマンドは、Terraform の実行を行います。  
+`apply` コマンドは、Terraformの実行を行います。  
 
 ```shell
 terraform apply
@@ -139,7 +139,7 @@ terraform apply
 
 ## terraform destroy
 
-`destroy` コマンドは、Terraform の破棄を行います。  
+`destroy` コマンドは、Terraformの破棄を行います。  
 
 ```shell
 terraform destroy
@@ -147,7 +147,7 @@ terraform destroy
 
 ## terraform show
 
-`show` コマンドは、Terraform の状態の表示を行います。  
+`show` コマンドは、Terraformの状態の表示を行います。  
 
 ```shell
 terraform show
@@ -155,7 +155,7 @@ terraform show
 
 ## terraform output
 
-`output` コマンドは、Terraform の出力の表示を行います。  
+`output` コマンドは、Terraformの出力の表示を行います。  
 
 ```shell
 terraform output
@@ -163,7 +163,7 @@ terraform output
 
 ## terraform refresh
 
-`refresh` コマンドは、Terraform のステートの更新を行います。  
+`refresh` コマンドは、Terraformのステートの更新を行います。  
 
 ```shell
 terraform refresh
@@ -171,7 +171,7 @@ terraform refresh
 
 ## terraform taint
 
-`taint` コマンドは、Terraform のリソースの汚染を行います。  
+`taint` コマンドは、Terraformのリソースの汚染を行います。  
 
 ```shell
 terraform taint
@@ -179,7 +179,7 @@ terraform taint
 
 ## terraform untaint
 
-`untaint` コマンドは、Terraform のリソースの汚染の解除を行います。  
+`untaint` コマンドは、Terraformのリソースの汚染の解除を行います。  
 
 ```shell
 terraform untaint

@@ -1,7 +1,7 @@
 ---
 title: "🤖🤖🤖 Terraform"
-metaTitle: "🤖🤖🤖 Learning Tetaform 🤖🤖🤖"
-metaDescription: "🤖🤖🤖 Learning Tetaform 🤖🤖🤖"
+metaTitle: "🤖🤖🤖 Learning Terraform 🤖🤖🤖"
+metaDescription: "🤖🤖🤖 Learning Terraform 🤖🤖🤖"
 ---
 
 ## Terraformとは
@@ -20,7 +20,7 @@ Infrastructure as Code(IaC)を実現する技術で、AWS・Azure・GCPなどの
 - Alibaba Cloud
 - Oracle Cloud Infrastructure
 
-参考: [Terraform - Providers](https://registry.terraform.io/browse/providers)  
+参考: [Terraform- Providers](https://registry.terraform.io/browse/providers)  
 
 ## 公式チュートリアル
 
