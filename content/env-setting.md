@@ -96,6 +96,12 @@ Default region name [None]: ap-northeast-1
 Default output format [None]: json
 ```
 
+ここで入力した値はホームディレクトリの`.aws`ディレクトリに保存されます。  
+`.aws`ディレクトリには、`config`と`credentials`というファイルが保存されます。  
+
+`config`ファイルには、デフォルトのリージョンが保存されます。  
+`credentials`ファイルには、アクセスキーとシークレットキーが保存されます。  
+
 ## AWS CLIの動作確認
 
 AWS CLIの設定が完了したら、次に、AWS CLIの動作確認を行います。  
