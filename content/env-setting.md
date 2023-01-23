@@ -36,3 +36,26 @@ terraform -v
 Terraform v1.3.7
 on windows_386
 ```
+
+## AWS CLIのインストール
+
+次に、AWS CLIをインストールします。  
+AWS CLIは、AWSのAPIを呼び出すためのコマンドラインツールです。  
+
+AWS CLIのインストールは、[公式サイト](https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/getting-started-install.html)から行います。  
+
+ダウンロードが完了したら、そのままインストールを行います。  
+ダウンロードしたファイルを実行すると、インストールウィザードが表示されます。  
+そのまま進めていくと、インストールが完了します。  
+
+インストールが完了したら、以下のコマンドで、AWS CLIのバージョンが表示されれば、インストール完了です。  
+
+```powershell
+aws --version
+```
+
+自分の環境では以下のように表示されました。  
+
+```powershell
+aws-cli/2.9.17 Python/3.9.11 Windows/10 exe/AMD64 prompt/off
+```
