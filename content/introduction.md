@@ -1,37 +1,41 @@
 ---
-title: "Introduction"
-metaTitle: "This is the title tag of this page"
-metaDescription: "This is the meta description"
+title: "🤖🤖🤖 Terraform"
+metaTitle: "🤖🤖🤖 Learning Tetaform 🤖🤖🤖"
+metaDescription: "🤖🤖🤖 Learning Tetaform 🤖🤖🤖"
 ---
 
-Some introduction text. Lists out all the headings from h1 to h6. Markdown link handling for relative and absolute URLs. Easy to customise.
+## Terraformとは
 
-# Heading H1
-Heading 1 text
+Infrastructure as Code(IaC)を実現する技術で、AWS・Azure・GCPなどのクラウドサービスのインフラをコードで管理することができます。  
+`.tf`という拡張子のファイルを作成し、その中にインフラの設定を記述することで、インフラをコードで管理することができます。  
 
-## Heading H2
-Heading 2 text
+## サポートしているクラウドサービス
 
-### Heading H3
-Heading 3 text
+一般的なクラウドサービスに対応しています。  
 
-#### Heading H4
-Heading 4 text
+- AWS
+- Azure
+- GCP
+- Kubernetes
+- Alibaba Cloud
+- Oracle Cloud Infrastructure
 
-##### Heading H5
-Heading 5 text
+参考: [Terraform - Providers](https://registry.terraform.io/browse/providers)  
 
-###### Heading H6
-Heading 6 text
+## 公式チュートリアル
 
-## Lists
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+公式のチュートリアルは、複数のクラウドサービスに対応しています。  
+<https://developer.hashicorp.com/terraform/tutorials#get-started>  
 
-## Links
+ここでは、AWSを使用して、インフラをコードで管理する方法を学びます。  
+<https://developer.hashicorp.com/terraform/tutorials/aws-get-started>  
 
-* Relative: [Codeblock](/codeblock)
-* Absolute: [Demo](https://learn.hasura.io/graphql/react)
+## Terraformの仕組み
+
+各クラウドサービスのAPIを呼び出して、インフラを構築します。  
+開発者は、Terraformのコマンドを実行するだけで、インフラを構築することができます。  
+
+その指示として、Terraformは、`.tf`という拡張子のファイルを読み込みます。  
+このファイルにインフラの設定を記述します。  
+
+![Terraformの仕組み](./img/terraform-architecture.avif)  

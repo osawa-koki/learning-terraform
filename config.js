@@ -1,6 +1,8 @@
 
+const isProd = process.env.NODE_ENV === 'production';
+
 const projectName = 'learning-terraform';
-const basePath = `/${projectName}`;
+const basePath = isProd ? `/${projectName}` : '';
 
 const siteUrl = `https://osawa-koki.github.io/${projectName}`;
 const githubUrl = `https://github.com/osawa-koki/${projectName}`
@@ -13,7 +15,7 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: `${basePath}/Logo.svg`,
+    logo: `${basePath}/Logo.png`,
     logoLink: siteUrl,
     title: `<a href='${siteUrl}'>🐙🐙🐙</a>`,
     githubUrl,
@@ -32,10 +34,12 @@ const config = {
   sidebar: {
     forcedNavOrder: [
       '/introduction',
-      '/codeblock',
+      '/env-setting',
+      '/workflow',
+      '/command',
+      '/syntax',
     ],
     collapsedNav: [
-      '/codeblock',
     ],
     links: [{ text: 'Terraform', link: 'https://www.terraform.io/' }],
     frontLine: false,
@@ -48,7 +52,7 @@ const config = {
     description: "🐙 Let's learn Terraform!",
     ogImage: null,
     docsLocation: `${githubUrl}`,
-    favicon: `${basePath}/Logo.svg`,
+    favicon: `${basePath}/favicon.ico`,
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
