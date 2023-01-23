@@ -64,3 +64,53 @@ aws --version
 ```powershell
 aws-cli/2.9.17 Python/3.9.11 Windows/10 exe/AMD64 prompt/off
 ```
+
+## AWS CLIの設定
+
+AWS CLIをインストールしたら、次に、AWS CLIの設定を行います。  
+AWS CLIの設定は、AWSのアクセスキーとシークレットキーを設定することで行います。  
+
+AWSのアクセスキーとシークレットキーは、AWSのマネジメントコンソールから取得します。  
+マネジメントコンソールにログインし、右上のアカウント名をクリックします。  
+その後、マイセキュリティ資格情報をクリックします。  
+
+左のメニューに表示されているユーザをクリックします。  
+その後、対象のユーザを選択します。  
+ユーザがない場合は、ユーザを作成します。  
+
+ユーザを選択したら、アクセスキーを作成します。  
+アクセスキーを作成すると、アクセスキーIDとシークレットアクセスキーが表示されます。  
+アクセスキーIDとシークレットアクセスキーは、AWS CLIの設定に使用します。  
+
+```powershell
+# AWS CLIの設定
+aws configure
+```
+
+以下のように入力します。  
+
+```powershell
+AWS Access Key ID [None]: ★アクセスキーID★
+AWS Secret Access Key [None]: ★シークレットアクセスキー★
+Default region name [None]: ap-northeast-1
+Default output format [None]: json
+```
+
+## AWS CLIの動作確認
+
+AWS CLIの設定が完了したら、次に、AWS CLIの動作確認を行います。  
+以下のコマンドで、AWSのアカウント情報が表示されれば、動作確認完了です。  
+
+```powershell
+aws sts get-caller-identity
+```
+
+以下のように表示されれば、動作確認完了です。  
+
+```powershell
+{
+  "UserId": "★ユーザID★",
+  "Account": "★アカウントID★",
+  "Arn": "★ARN★"
+}
+```
