@@ -1,6 +1,8 @@
 
+const isProd = process.env.NODE_ENV === 'production';
+
 const projectName = 'learning-terraform';
-const basePath = `/${projectName}`;
+const basePath = isProd ? `/${projectName}` : '';
 
 const siteUrl = `https://osawa-koki.github.io/${projectName}`;
 const githubUrl = `https://github.com/osawa-koki/${projectName}`
