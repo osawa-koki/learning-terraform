@@ -33,8 +33,7 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      '/introduction',
-      '/codeblock',
+      '/env-setting',
     ],
     collapsedNav: [
       '/codeblock',
