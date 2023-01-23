@@ -37,6 +37,7 @@ const config = {
       '/env-setting',
       '/workflow',
       '/command',
+      '/structure',
       '/syntax',
     ],
     collapsedNav: [
