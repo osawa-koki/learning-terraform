@@ -33,10 +33,10 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
+      '/introduction',
       '/env-setting',
     ],
     collapsedNav: [
-      '/codeblock',
     ],
     links: [{ text: 'Terraform', link: 'https://www.terraform.io/' }],
     frontLine: false,

@@ -1,5 +1,5 @@
 ---
-title: "環境構築"
+title: "🌳🌳🌳 環境構築"
 metaTitle: "🤖 Terraform 環境構築 🤖"
 metaDescription: "🤖 Terraform 環境構築 🤖"
 ---
