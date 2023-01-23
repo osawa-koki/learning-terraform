@@ -35,6 +35,7 @@ const config = {
     forcedNavOrder: [
       '/introduction',
       '/env-setting',
+      '/workflow',
     ],
     collapsedNav: [
     ],
