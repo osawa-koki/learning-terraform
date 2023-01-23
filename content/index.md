@@ -28,4 +28,14 @@ Infrastructure as Code(IaC)を実現する技術で、AWS・Azure・GCPなどの
 <https://developer.hashicorp.com/terraform/tutorials#get-started>  
 
 ここでは、AWSを使用して、インフラをコードで管理する方法を学びます。  
-<https://developer.hashicorp.com/terraform/tutorials/aws-get-started>
+<https://developer.hashicorp.com/terraform/tutorials/aws-get-started>  
+
+## Terraformの仕組み
+
+各クラウドサービスのAPIを呼び出して、インフラを構築します。  
+開発者は、Terraformのコマンドを実行するだけで、インフラを構築することができます。  
+
+その指示として、Terraformは、`.tf`という拡張子のファイルを読み込みます。  
+このファイルにインフラの設定を記述します。  
+
+![Terraformの仕組み](./img/terraform-architecture.avif)  
