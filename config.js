@@ -9,7 +9,7 @@ const githubUrl = `https://github.com/osawa-koki/${projectName}`
 
 const config = {
   gatsby: {
-    pathPrefix: `/${projectName}`,
+    pathPrefix: basePath,
     siteUrl,
     gaTrackingId: null,
     trailingSlash: false,
@@ -17,7 +17,7 @@ const config = {
   header: {
     logo: `${basePath}/Logo.png`,
     logoLink: siteUrl,
-    title: `<a href='${siteUrl}'>🐙🐙🐙</a>`,
+    title: `<a href='${basePath}'>🐙🐙🐙</a>`,
     githubUrl,
     helpUrl: '',
     tweetText: '',
