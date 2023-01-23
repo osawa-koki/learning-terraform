@@ -48,7 +48,7 @@ const config = {
     description: "🐙 Let's learn Terraform!",
     ogImage: null,
     docsLocation: `${githubUrl}`,
-    favicon: `${basePath}/Logo.svg`,
+    favicon: `${basePath}/favicon.ico`,
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
