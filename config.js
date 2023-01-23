@@ -15,7 +15,7 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: `${basePath}/Logo.svg`,
+    logo: `${basePath}/Logo.png`,
     logoLink: siteUrl,
     title: `<a href='${siteUrl}'>🐙🐙🐙</a>`,
     githubUrl,
