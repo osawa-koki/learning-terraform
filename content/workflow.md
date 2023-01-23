@@ -32,7 +32,7 @@ terraform {
   required_providers {
     docker = {
       source  = "kreuzwerker/docker"
-      version = "~> 2.15.0"
+      version = "~> 2.6"
     }
   }
 }
@@ -85,3 +85,19 @@ terraform destroy
 ```shell
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
+
+---
+
+![Terraform](/img/terraform-demo.gif)  
+
+これで簡単なTerrafomの実行が完了しました。  
+次からは、Terraformの構文や、Terraformを使ってAWSのリソースを構築する方法を学んでいきましょう。  
+
+## まとめ
+
+Terraformを使ってAWSのリソースを構築する際の基本的な流れは以下の通りです。  
+
+1. Terraformファイルを作成する
+2. Terraformを初期化する
+3. Terraformを実行する
+4. Terraformを破棄する
