@@ -40,6 +40,7 @@ const config = {
       '/structure',
       '/syntax',
       '/grammer',
+      '/make-action1',
     ],
     collapsedNav: [
     ],
